@@ -4,19 +4,7 @@
     --accent1-color: #90e0ef; /*Light Blue*/
     --accent2-color: #eae2b7; /*Beige*/
     --header-font:"Libertinus Mono", sans-serif;
- .libertinus-mono-regular {
-  font-family: "Libertinus Mono", monospace;
-  font-weight: 400;
-  font-style: normal;
-}
-
     --body-font: "Roboto Flex", sans-serif;
-    
-.libertinus-mono-regular {
-  font-family: "Libertinus Mono", monospace;
-  font-weight: 400;
-  font-style: normal;
-}
 }
 
 header {
