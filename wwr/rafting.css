@@ -24,9 +24,15 @@ body {
     color: var(--accent1-color);
 }
 
+ footer {
+    position: relative;
+    width: 840px;
+    margin: 0 auto;
+    min-width: 320px;
+    top: 900px;
+ }
 
-
- main, footer {
+ main {
     width: 840px;
     margin: 0 auto;
     min-width: 320px;
@@ -42,8 +48,8 @@ nav, p, section, article {
 }
 .socialmedia a {
     text-decoration: none;
-    position: 100px;
-    top: 10000px;
+    position: relative;
+    top: 10px;
 }
 title {
     text-decoration: none;
@@ -53,7 +59,7 @@ title {
     width: 32px;
     height: 32px;
     margin-right: 8px;
-    top: 100000px;
+    top: 1000px;
 }
 
 .hero {
