@@ -25,11 +25,7 @@ body {
 }
 
 
-footer {
-    position: relative;
-    height: 10px;
-    top: 900px;
-}
+
  main, footer {
     width: 840px;
     margin: 0 auto;
@@ -48,6 +44,9 @@ nav, p, section, article {
     text-decoration: none;
     position: 100px;
     top: 10000px;
+}
+title {
+    text-decoration: none;
 }
 
 .socialmedia a img {
