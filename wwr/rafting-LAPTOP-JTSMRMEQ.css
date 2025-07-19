@@ -25,12 +25,8 @@ body {
 }
 
 
-footer {
-    position: relative;
-    height: 10px;
-    top: 900px;
-}
- main, footer {
+
+ section {
     width: 840px;
     margin: 0 auto;
     min-width: 320px;
@@ -46,22 +42,21 @@ nav, p, section, article {
 }
 .socialmedia a {
     text-decoration: none;
-    position: 100px;
-    top: 10000px;
+}
+title {
+    text-decoration: none;
 }
 
 .socialmedia a img {
     width: 32px;
     height: 32px;
     margin-right: 8px;
-    top: 100000px;
 }
 
 .hero {
-    position: absolute;
+    position: relative;
     width: 100%;
     max-width: 100%;
-    left: 0;
 }
 .hero img {
     display: block;
@@ -110,7 +105,3 @@ article {
 }
 
 
-section {
-position: relative;
-    top: 900px;
-}
