@@ -23,17 +23,7 @@ header image {
     
 }
 
-/*.nav a {
-	
-	color: var(--accent2-color);
-	text-decoration: none;
-	padding: 0.5em 1em;
-    border: 1px solid #333;
-    background: white;
-    text-decoration: none;
-	font-size: 1.2rem;
-    align-items: flex-end;
-}*/
+
  header nav a {
     
     justify-content: space-evenly;
@@ -144,8 +134,11 @@ position: relative;
 .history section{
     display: flex;
     flex-direction: row;
+    
 }
+
 .history img {
     width: 200px;
-    height: auto;;
+    height: auto;
+    top: 100px;
 }
