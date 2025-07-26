@@ -16,10 +16,12 @@ header {
 	max-width: 100%;
     padding: 16px;
 }
-header image {
+header img {
     	margin: 0 1rem 0 1rem;
-	width: 64px;
+	width: 150px;
 	height: auto;
+    position: relative;
+    left: 300px;
     
 }
 
@@ -62,7 +64,7 @@ h1, h2 {
     color: var(--primary-color);
     text-align: center;
 }
-nav, p, section, article {
+ p, section, article {
     margin: 16px;
     padding: 8px;
 }
@@ -131,14 +133,39 @@ position: relative;
     border: 2px solid #0077b6;
     width: 100%;
 }
-.history section{
+.history{
     display: flex;
     flex-direction: row;
+    gap: 24px;
     
+}
+.history .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    margin: 16px 0;
+}
+.history p {
+    flex: 1;
 }
 
 .history img {
     width: 200px;
     height: auto;
-    top: 100px;
+}
+
+
+figure img {
+    position: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    height: auto;
+    margin:  auto;
+
+}
+.adventues {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
