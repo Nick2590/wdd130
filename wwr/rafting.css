@@ -145,16 +145,14 @@ position: relative;
     gap: 24px;
     
 }
-.history .row {
+.story {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 16px;
     margin: 16px 0;
 }
-.history p {
-    flex: 1;
-}
+
 
 .history img {
     width: 200px;
