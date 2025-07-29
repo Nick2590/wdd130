@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "libertinus Mono", monospace; 
+    font-size: medium;
+    background-color: #c4dce6;
+}
+.libertinus-mono-regular {
+  font-family: "Libertinus Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+fieldset {
+    display: flex;
+    flex-direction: column;
+}
+legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+footer p{
+    position: relative;
+    border: #0077b6 solid 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: smaller;
+}
