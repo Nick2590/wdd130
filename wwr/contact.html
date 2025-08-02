@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libertinus+Mono&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
 
-
+    
    
     <link rel="stylesheet" href="rafting.css">
 </head>
@@ -31,24 +31,25 @@
 
     </header>
     <main>
+        
         <div class ="information">
-            <h1>We'd love to hear from you!</h1>
-            <p>If you have any questions or would like to book a trip, please fill out the form below:</p>
+            <h1>If you have any questions or would like to book a trip, please fill out the form below:</h1>
             <form action="https://example.com/submit-form" method="post">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
 
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
-
+                
                 <label for="choose">Purpose of Message:</label>
+                <div class=" options">
                 <input type="radio" name="option 1" value="General Inquiry" id="option1" required>
                 <label for="option1">General Inquiry</label>
                 <input type="radio" name="option 2" value="Reservation Request" id="option2" required>
                 <label for="option2">Reservation Request</label>
                 <input type="radio" name="option 3" value="Website Suggestions" id="option3" required>
                 <label for="option3">Website Suggestions</label>
-                
+                </div>  
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" rows="4" required></textarea>
 
@@ -68,20 +69,23 @@
         <div class="employees">
             <h2>Meet Our Team</h2>
             <div class="employee">
-                <img src="styles/images/employee1.jpg" alt="Employee 1">
-                <figcaption>Hector</figcaption>
+                <div class="employee-info">
+                    <img src="styles/images/employee1.jpg" alt="Employee 1">
+                    <figcaption>Hector-Lead Guide</figcaption>
+                </div>
+                <div class="employee-info">
+                    <img src="styles/images/employee2.jpg" alt="Employee 2">
+                    <figcaption>Suzan-Activies Coordinator</figcaption>
+                </div>
+                <div class="employee-info">
+                    <img src="styles/images/employee3.jpg" alt="Employee 3">
+                    <figcaption>John-Operations Manager</figcaption>
+                </div>
             </div>
-            <div class="employee">
-                <img src="styles/images/employee2.jpg" alt="Employee 2">
-                <figcaption>Suzan</figcaption>
-            </div>
-            <div class="employee">
-                <img src="styles/images/employee3.jpg" alt="Employee 3">
-                <figcaption>John</figcaption>
-            </div>
-            
+         </div>   
     </main>
     <footer>
+        <div class="contact-footer">
         <p>&copy;2025 White Water Rafting, Nicholas Goodsell</p>
         <nav class="socialmedia">
             <a href="https://facebook.com">
@@ -94,6 +98,7 @@
                 <img src="styles/images/instagram_logo.jpg" alt="Instagram Logo">
             </a>
         </nav>
+        </div>
         <link rel="stylesheet" href="C:\Users\paceg\OneDrive\Documents\wdd130\wwr\styles\images\Untitled Diagram.drawio">
     </footer>
     
