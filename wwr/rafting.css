@@ -158,7 +158,7 @@ p, section, article {
 
 .history p {
     flex: 1;
-    min-width: ;-width: 300px;
+    min-width: 300px;
 }
 .history img {
     width: 200px;
